@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    let test = "lol"
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+       GifImageView("FThrow")
+        Text(String(test))
     }
 }
 
