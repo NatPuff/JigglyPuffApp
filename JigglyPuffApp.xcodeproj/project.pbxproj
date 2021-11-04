@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D116F0A27330E81008279E0 /* MovesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D116F0927330E81008279E0 /* MovesList.swift */; };
 		5D7D4FD1272F3E0A006C436E /* JigglyPuffAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D4FD0272F3E0A006C436E /* JigglyPuffAppApp.swift */; };
-		5D7D4FD3272F3E0A006C436E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D4FD2272F3E0A006C436E /* ContentView.swift */; };
+		5D7D4FD3272F3E0A006C436E /* MoveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D4FD2272F3E0A006C436E /* MoveCard.swift */; };
 		5D7D4FD5272F3E0C006C436E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D4FD4272F3E0C006C436E /* Assets.xcassets */; };
 		5D7D4FD8272F3E0C006C436E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D4FD7272F3E0C006C436E /* Preview Assets.xcassets */; };
 		5D7D4FFB272F3E99006C436E /* UAir.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D4FDF272F3E97006C436E /* UAir.gif */; };
@@ -40,14 +41,16 @@
 		5D7D5015272F3E99006C436E /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D4FF9272F3E99006C436E /* download.png */; };
 		5D7D5016272F3E99006C436E /* NSpecial.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D4FFA272F3E99006C436E /* NSpecial.gif */; };
 		5D7D501B272F4045006C436E /* GifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D501A272F4045006C436E /* GifImageView.swift */; };
-		5D7D501D272F4BB3006C436E /* Moves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D501C272F4BB3006C436E /* Moves.swift */; };
+		5D7D501D272F4BB3006C436E /* MoveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D501C272F4BB3006C436E /* MoveData.swift */; };
 		5D7D501F272F4EF7006C436E /* MoveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D501E272F4EF7006C436E /* MoveViewModel.swift */; };
+		5DD37AA12730A7C800E256E4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD37AA02730A7C800E256E4 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D116F0927330E81008279E0 /* MovesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesList.swift; sourceTree = "<group>"; };
 		5D7D4FCD272F3E0A006C436E /* JigglyPuffApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigglyPuffApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7D4FD0272F3E0A006C436E /* JigglyPuffAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigglyPuffAppApp.swift; sourceTree = "<group>"; };
-		5D7D4FD2272F3E0A006C436E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D7D4FD2272F3E0A006C436E /* MoveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCard.swift; sourceTree = "<group>"; };
 		5D7D4FD4272F3E0C006C436E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D7D4FD7272F3E0C006C436E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D7D4FDF272F3E97006C436E /* UAir.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = UAir.gif; sourceTree = "<group>"; };
@@ -79,8 +82,9 @@
 		5D7D4FF9272F3E99006C436E /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
 		5D7D4FFA272F3E99006C436E /* NSpecial.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NSpecial.gif; sourceTree = "<group>"; };
 		5D7D501A272F4045006C436E /* GifImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImageView.swift; sourceTree = "<group>"; };
-		5D7D501C272F4BB3006C436E /* Moves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moves.swift; sourceTree = "<group>"; };
+		5D7D501C272F4BB3006C436E /* MoveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveData.swift; sourceTree = "<group>"; };
 		5D7D501E272F4EF7006C436E /* MoveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveViewModel.swift; sourceTree = "<group>"; };
+		5DD37AA02730A7C800E256E4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +122,6 @@
 				5D7D5017272F3F4B006C436E /* View */,
 				5D7D4FDE272F3E70006C436E /* PuffGifs */,
 				5D7D4FD0272F3E0A006C436E /* JigglyPuffAppApp.swift */,
-				5D7D4FD2272F3E0A006C436E /* ContentView.swift */,
 				5D7D4FD4272F3E0C006C436E /* Assets.xcassets */,
 				5D7D4FD6272F3E0C006C436E /* Preview Content */,
 			);
@@ -171,7 +174,10 @@
 		5D7D5017272F3F4B006C436E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5D116F0927330E81008279E0 /* MovesList.swift */,
 				5D7D501A272F4045006C436E /* GifImageView.swift */,
+				5D7D4FD2272F3E0A006C436E /* MoveCard.swift */,
+				5DD37AA02730A7C800E256E4 /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,7 +185,7 @@
 		5D7D5018272F3F55006C436E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5D7D501C272F4BB3006C436E /* Moves.swift */,
+				5D7D501C272F4BB3006C436E /* MoveData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -290,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D7D501D272F4BB3006C436E /* Moves.swift in Sources */,
+				5D7D501D272F4BB3006C436E /* MoveData.swift in Sources */,
+				5DD37AA12730A7C800E256E4 /* DetailView.swift in Sources */,
+				5D116F0A27330E81008279E0 /* MovesList.swift in Sources */,
 				5D7D501B272F4045006C436E /* GifImageView.swift in Sources */,
-				5D7D4FD3272F3E0A006C436E /* ContentView.swift in Sources */,
+				5D7D4FD3272F3E0A006C436E /* MoveCard.swift in Sources */,
 				5D7D501F272F4EF7006C436E /* MoveViewModel.swift in Sources */,
 				5D7D4FD1272F3E0A006C436E /* JigglyPuffAppApp.swift in Sources */,
 			);

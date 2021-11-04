@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Moves: Decodable, Identifiable{
+struct MoveData: Decodable, Identifiable{
     let id: Int
     let activeOn: String
     let baseDamage: String

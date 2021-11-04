@@ -9,12 +9,12 @@ import SwiftUI
 
 
 class MoveViewModel: ObservableObject {
-    @Published var move = [Moves]()
+    @Published var move = [MoveData]()
     
-    let apiURL = "https://firebasestorage.googleapis.com/v0/b/jigglypuff-frame-data.appspot.com/o/jigglypuff-frame-data-default-rtdb-export.json?alt=media&token=2cf0ccaf-3f06-4228-bea5-284af61d88ed"
+    let apiURL = "https://firebasestorage.googleapis.com/v0/b/jigglypuff-frame-data.appspot.com/o/jigglypuff-frame-data-default-rtdb-export%20(2).json?alt=media&token=3071d8fb-2c29-4c11-a514-2c8d2097ce62"
     
     init(){
-        
+      fetchMoveData()
     }
     func fetchMoveData(){
         guard let url = URL(string: apiURL) else {return}
@@ -25,7 +25,7 @@ class MoveViewModel: ObservableObject {
             
             DispatchQueue.main.async {
                 do{
-                    let move = try JSONDecoder().decode([Moves].self, from: cleanData)
+                    let move = try JSONDecoder().decode([MoveData].self, from: cleanData)
                     self.move = move
                 }catch{
                     print("error msg:", error)
@@ -43,7 +43,7 @@ extension Data{
         let ParseDataString = dataAsString?
             .replacingOccurrences(of: string, with: "")
         guard let data = ParseDataString?.data(using: .utf8)
-        else{return nil}
+        else {return nil}
         return data
     }
 }
