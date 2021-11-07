@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct MovesList: View {
-    private let gridItems = [GridItem(.flexible()), GridItem(.flexible())]
+    private let gridItems = [GridItem(.flexible())]
     @ObservedObject var viewModel = MoveViewModel()
     var body: some View {
         NavigationView{
             ScrollView{
-                LazyVGrid(columns: gridItems, spacing: 20){
+                LazyVGrid(columns: gridItems){
                     ForEach(viewModel.move) {
                         move in
                         NavigationLink(destination: DetailView(moveData: move, moveViewModel: viewModel)){

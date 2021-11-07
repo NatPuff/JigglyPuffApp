@@ -20,10 +20,17 @@ struct DetailView: View {
         VStack{
         Text(moveData.move)
         GifImageView(moveData.gifName)
-        .frame(width: 300, height: 300)
+        .frame(width: 350, height: 350)
         .scaledToFit()
         .padding()
             Text(moveData.baseDamage)
+            Text(moveData.startup)
+            Text(moveData.activeOn)
+            Text(moveData.onShield)
+            Text(moveData.shieldStun)
+            Text(moveData.totalFrames)
+            Text(moveData.shieldLag)
+            
         }
     }
 }

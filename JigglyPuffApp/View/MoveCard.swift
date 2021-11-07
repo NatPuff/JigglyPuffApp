@@ -16,6 +16,7 @@ struct MovesView: View {
 
 
 struct MoveCard: View{
+    let backgroundColor = Color("CardColor")
     let moveData: MoveData
     let moveViewModel: MoveViewModel
     init(moveData: MoveData, moveViewModel: MoveViewModel){
@@ -23,15 +24,25 @@ struct MoveCard: View{
         self.moveViewModel = moveViewModel
     }
     var body: some View {
-        VStack{
-        Text(moveData.move)
+        HStack{
+            VStack(){
+                Text(moveData.move.uppercased())
+                .fontWeight(.bold)
+                .font(.title2)
+                .bold()
+                .foregroundColor(Color.black)
+                
+            
         GifImageView(moveData.gifName)
-        .frame(width: 100, height: 100)
-        .scaledToFit()
+                .scaledToFit()
+                .frame(minWidth: 0, minHeight: UIScreen.main.bounds.height * 0.3)
+        
         
     
         
-            
+            }
+            .background(backgroundColor)
+            .cornerRadius(12)
         }
     }
 }
@@ -41,3 +52,4 @@ struct MoveCard: View{
 //        MovesView()
 //    }
 //}
+

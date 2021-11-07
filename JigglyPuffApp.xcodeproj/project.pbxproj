@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5D116F0A27330E81008279E0 /* MovesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D116F0927330E81008279E0 /* MovesList.swift */; };
+		5D68CD7E27381D4E00CADF61 /* KillPercentViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D68CD7D27381D4E00CADF61 /* KillPercentViews.swift */; };
+		5D68CD8027383C7800CADF61 /* UpThrowKillPercents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D68CD7F27383C7800CADF61 /* UpThrowKillPercents.swift */; };
+		5D68CD8227383F1400CADF61 /* KillPercentsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D68CD8127383F1400CADF61 /* KillPercentsTab.swift */; };
 		5D7D4FD1272F3E0A006C436E /* JigglyPuffAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D4FD0272F3E0A006C436E /* JigglyPuffAppApp.swift */; };
 		5D7D4FD3272F3E0A006C436E /* MoveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D4FD2272F3E0A006C436E /* MoveCard.swift */; };
 		5D7D4FD5272F3E0C006C436E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D4FD4272F3E0C006C436E /* Assets.xcassets */; };
@@ -43,11 +46,19 @@
 		5D7D501B272F4045006C436E /* GifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D501A272F4045006C436E /* GifImageView.swift */; };
 		5D7D501D272F4BB3006C436E /* MoveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D501C272F4BB3006C436E /* MoveData.swift */; };
 		5D7D501F272F4EF7006C436E /* MoveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D501E272F4EF7006C436E /* MoveViewModel.swift */; };
+		5D7DF9252735F80F000510FD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DF9242735F80F000510FD /* MainView.swift */; };
+		5D7DF92727360CE4000510FD /* RestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DF92627360CE4000510FD /* RestData.swift */; };
+		5D7DF929273614B5000510FD /* RestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DF928273614B5000510FD /* RestViewModel.swift */; };
+		5D7DF92B273617B8000510FD /* RestKillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DF92A273617B8000510FD /* RestKillView.swift */; };
+		5D7DF92D273619FB000510FD /* RestPercentGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DF92C273619FB000510FD /* RestPercentGrid.swift */; };
 		5DD37AA12730A7C800E256E4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD37AA02730A7C800E256E4 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D116F0927330E81008279E0 /* MovesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovesList.swift; sourceTree = "<group>"; };
+		5D68CD7D27381D4E00CADF61 /* KillPercentViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillPercentViews.swift; sourceTree = "<group>"; };
+		5D68CD7F27383C7800CADF61 /* UpThrowKillPercents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpThrowKillPercents.swift; sourceTree = "<group>"; };
+		5D68CD8127383F1400CADF61 /* KillPercentsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillPercentsTab.swift; sourceTree = "<group>"; };
 		5D7D4FCD272F3E0A006C436E /* JigglyPuffApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigglyPuffApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7D4FD0272F3E0A006C436E /* JigglyPuffAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JigglyPuffAppApp.swift; sourceTree = "<group>"; };
 		5D7D4FD2272F3E0A006C436E /* MoveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCard.swift; sourceTree = "<group>"; };
@@ -84,6 +95,11 @@
 		5D7D501A272F4045006C436E /* GifImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImageView.swift; sourceTree = "<group>"; };
 		5D7D501C272F4BB3006C436E /* MoveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveData.swift; sourceTree = "<group>"; };
 		5D7D501E272F4EF7006C436E /* MoveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveViewModel.swift; sourceTree = "<group>"; };
+		5D7DF9242735F80F000510FD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5D7DF92627360CE4000510FD /* RestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestData.swift; sourceTree = "<group>"; };
+		5D7DF928273614B5000510FD /* RestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestViewModel.swift; sourceTree = "<group>"; };
+		5D7DF92A273617B8000510FD /* RestKillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestKillView.swift; sourceTree = "<group>"; };
+		5D7DF92C273619FB000510FD /* RestPercentGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPercentGrid.swift; sourceTree = "<group>"; };
 		5DD37AA02730A7C800E256E4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,9 +191,15 @@
 			isa = PBXGroup;
 			children = (
 				5D116F0927330E81008279E0 /* MovesList.swift */,
+				5D7DF92A273617B8000510FD /* RestKillView.swift */,
 				5D7D501A272F4045006C436E /* GifImageView.swift */,
 				5D7D4FD2272F3E0A006C436E /* MoveCard.swift */,
+				5D7DF92C273619FB000510FD /* RestPercentGrid.swift */,
 				5DD37AA02730A7C800E256E4 /* DetailView.swift */,
+				5D7DF9242735F80F000510FD /* MainView.swift */,
+				5D68CD7D27381D4E00CADF61 /* KillPercentViews.swift */,
+				5D68CD7F27383C7800CADF61 /* UpThrowKillPercents.swift */,
+				5D68CD8127383F1400CADF61 /* KillPercentsTab.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				5D7D501C272F4BB3006C436E /* MoveData.swift */,
+				5D7DF92627360CE4000510FD /* RestData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				5D7D501E272F4EF7006C436E /* MoveViewModel.swift */,
+				5D7DF928273614B5000510FD /* RestViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -297,12 +321,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7D501D272F4BB3006C436E /* MoveData.swift in Sources */,
+				5D68CD7E27381D4E00CADF61 /* KillPercentViews.swift in Sources */,
+				5D7DF92B273617B8000510FD /* RestKillView.swift in Sources */,
 				5DD37AA12730A7C800E256E4 /* DetailView.swift in Sources */,
+				5D7DF929273614B5000510FD /* RestViewModel.swift in Sources */,
+				5D68CD8027383C7800CADF61 /* UpThrowKillPercents.swift in Sources */,
+				5D7DF9252735F80F000510FD /* MainView.swift in Sources */,
+				5D7DF92D273619FB000510FD /* RestPercentGrid.swift in Sources */,
+				5D7DF92727360CE4000510FD /* RestData.swift in Sources */,
 				5D116F0A27330E81008279E0 /* MovesList.swift in Sources */,
 				5D7D501B272F4045006C436E /* GifImageView.swift in Sources */,
 				5D7D4FD3272F3E0A006C436E /* MoveCard.swift in Sources */,
 				5D7D501F272F4EF7006C436E /* MoveViewModel.swift in Sources */,
 				5D7D4FD1272F3E0A006C436E /* JigglyPuffAppApp.swift in Sources */,
+				5D68CD8227383F1400CADF61 /* KillPercentsTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
