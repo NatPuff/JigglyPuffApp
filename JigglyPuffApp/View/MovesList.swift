@@ -12,16 +12,8 @@ struct MovesList: View {
     @ObservedObject var viewModel = MoveViewModel()
     var body: some View {
         NavigationView{
-            ScrollView{
-                LazyVGrid(columns: gridItems){
-                    ForEach(viewModel.move) {
-                        move in
-                        NavigationLink(destination: DetailView(moveData: move, moveViewModel: viewModel)){
-                            MoveCard(moveData: move, moveViewModel: viewModel)
-                        }
-                    }
-                }
-            }
+            
+            List(viewModel.move) { move in MoveCard(moveData: move, moveViewModel: viewModel)}
             .navigationTitle("Puff Move List")
         }
     }

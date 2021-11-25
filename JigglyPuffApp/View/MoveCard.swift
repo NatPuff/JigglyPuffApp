@@ -24,24 +24,22 @@ struct MoveCard: View{
         self.moveViewModel = moveViewModel
     }
     var body: some View {
-        HStack{
-            VStack(){
+        NavigationLink(destination: DetailView(moveData: moveData, moveViewModel: moveViewModel)
+        ){
+            HStack(){
+                GifImageView(moveData.gifName)
+                    .scaledToFit()
+                    .frame(minWidth: 0, minHeight: UIScreen.main.bounds.height * 0.2)
+                
+                
                 Text(moveData.move.uppercased())
                 .fontWeight(.bold)
                 .font(.title2)
                 .bold()
                 .foregroundColor(Color.black)
-                
-            
-        GifImageView(moveData.gifName)
-                .scaledToFit()
-                .frame(minWidth: 0, minHeight: UIScreen.main.bounds.height * 0.3)
-        
-        
-    
+
         
             }
-            .background(backgroundColor)
             .cornerRadius(12)
         }
     }

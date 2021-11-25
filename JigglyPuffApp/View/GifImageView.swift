@@ -1,10 +1,3 @@
-//
-//  GifImageView.swift
-//  JigglyPuffApp
-//
-//  Created by Cesar Pacheco on 10/31/21.
-//
-
 import SwiftUI
 import WebKit
 
